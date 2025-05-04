@@ -1,0 +1,20 @@
+<!-- public/form.html -->
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>名前登録フォーム</title>
+  </head>
+  <body>
+    <form action="/src/routes/insert.php" method="POST">
+      <label>名前: <input type="text" name="user_name" required /></label><br />
+      <label>住所: <input type="text" name="user_address" required /></label
+      ><br />
+      <label>メール: <input type="email" name="user_email" required /></label
+      ><br />
+      <label>電話番号: <input type="text" name="user_pnumber" required /></label
+      ><br />
+      <button type="submit">登録</button>
+    </form>
+  </body>
+</html>
